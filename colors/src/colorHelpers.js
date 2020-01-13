@@ -14,6 +14,8 @@ function generatePalette(starterPalette) {
     }
 
     // Get 10 colors & reverse the array so it's ordered from light to dark
+    // Then, iterate through the colors array and add in the updated-color 
+    // at each level (i.e. 50, 100, etc.)
     for (let color of starterPalette.colors) {
         let scale = getScale(color.color, 10).reverse();
         for (let i in scale) {
