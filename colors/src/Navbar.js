@@ -1,4 +1,4 @@
-import React, { Component, version } from 'react';
+import React, { Component } from 'react';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import Snackbar from '@material-ui/core/Snackbar';
