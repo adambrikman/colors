@@ -61,7 +61,6 @@ class NewPaletteForm extends Component {
 
     addRandomColor() {
         // Pick random color from existing palettes
-
         const allColors = this.props.palettes.map(p => p.colors).flat();
 
         let randomIdx = Math.floor(Math.random() * allColors.length);
@@ -162,6 +161,7 @@ class NewPaletteForm extends Component {
                     removeColor={this.removeColor}
                     axis='xy'
                     onSortEnd={this.onSortEnd}
+                    distance={20}
                 />
             </main>
           </div>
