@@ -22,7 +22,9 @@ export default {
         overflow: 'scroll',
     },
     heading: {
-        fontSize: '2rem'
+        fontSize: '2rem',
+        textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
+
     },
     container: {
         width: '50%',
